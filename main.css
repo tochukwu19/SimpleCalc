@@ -3,14 +3,6 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-/* .container {
-    margin: 50px auto;
-    border: 2px solid rgb(85, 109, 218);
-    width: 20em;
-    height: 320px;
-    border-radius: 5%;
-} */
-
 .card-container {
     display: grid;
     grid-template-columns: 100px 100px 100px 100px;
@@ -85,6 +77,6 @@ body {
 
 @media only screen and (max-width: 600px) {
     .card-container{
-        margin: 0;
+        margin: auto;
     }
 }
