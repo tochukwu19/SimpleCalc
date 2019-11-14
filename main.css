@@ -82,3 +82,9 @@ body {
     direction: ltr;
     text-orientation: upright;
 }
+
+@media only screen and (max-width: 600px) {
+    .card-container{
+        margin: 0;
+    }
+}
